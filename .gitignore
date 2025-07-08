@@ -1,0 +1,21 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model checkpoints/logs (optional if not uploading others later)
+runs/
+*.log
+
+# Ignore system files
+.DS_Store
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore environment files (if any)
+.env
+
+# Optional: comment out the next line if you're including best.pt in the repo
+# best.pt
